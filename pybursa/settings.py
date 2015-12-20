@@ -90,6 +90,9 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
+STATIC_ROOT = os.path.join(BASE_DIR, "static_files")
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
 TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 
 EMAIL_HOST = 'localhost'
@@ -139,3 +142,9 @@ LOGGING = {
 
 },
 }
+
+try:
+    from local_settings import *
+except ImportError:
+    print 'Warning! local_settings are not defined!'
+
