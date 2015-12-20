@@ -1,0 +1,91 @@
+#brico {
+    width: 50px;
+  }
+.con-info{
+  width:200px; height: 200px; border-radius: 10px; margin: 2px 2px 2px 2px;
+}
+.contacts{
+  margin: auto;
+  width: 90%;
+  text-align: center; 
+}
+.contact-header{
+  text-align: center;	
+}
+.condata {
+	text-align: center
+}
+.courseinfo {
+	font-style: italic;
+
+}
+.conth{
+	border-radius: 4px;
+}
+.conth:hover{
+	background-color:#d1d1d1;
+}
+body{
+	background-color:#e6e6e6;
+}
+.nota-bene {
+	font-weight: 600 ;
+	color: #2B0F5A;
+}
+.whypython {
+	font-style:oblique;
+	border-color: black;
+}
+.student-table {
+	width:99%;
+	margin: auto;
+	border-radius: 2px ;
+	border: 3px;
+}
+thead{
+	background-color: #9F29D1;
+}
+.oddtr{
+	background-color: #e1e1e1;
+}
+.student-table tr
+{
+	border: 2px solid white;
+}
+.student-detail {
+	width: 40%;
+	background-color:#D09595;
+}
+.student-detail td{
+	border: 2px solid white;
+	padding-left: 5px
+}
+.student-results{
+	width: 60%;
+}
+.student-results td{
+	border:2px solid white;
+	padding-left: 5px;
+}
+h2{
+	font-size: xxlarge;
+	font-weight: 800;
+}
+.course_info {
+	width:99%;
+
+}
+.course_info td{
+		border-bottom:1px solid grey;
+		padding: 5px;
+}
+
+.course_info .first_td{
+	width:25%;
+}
+
+.coach_info{
+	width:100%;
+	padding:5px;
+
+}
